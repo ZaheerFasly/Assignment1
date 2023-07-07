@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: webserver
-        image: 897193292353.dkr.ecr.us-east-1.amazonaws.com/webapp-ecr:application
+        image: 139675527364.dkr.ecr.us-east-1.amazonaws.com/k8s-assignment:app
         env:
         - name: DBHOST
           value: mysql.webserver.svc.cluster.local  # Replace with the hostname of your MySQL service
