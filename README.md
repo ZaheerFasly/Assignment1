@@ -19,7 +19,7 @@ sudo python3 app.py
 
 ### Get the IP of the database and export it as DBHOST variable
 ```docker inspect <container_id>```
-
+ECR
 
 ### Example when running DB runs as a docker container and app is running locally
 ```
